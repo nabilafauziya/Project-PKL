@@ -9,6 +9,8 @@
                     <div class="card-header">
                         Data Guru
                     </div>
+                    <br>
+                    <center><img src="https://cdn-icons.flaticon.com/png/512/3045/premium/3045303.png?token=exp=1659491785~hmac=626123e6b03e717291ad60e069480992" width="70px" height="70px" alt="logo"></center>
                     <div class="card-body">
                         <form action="{{ route('guru.store') }}" method="post">
                             @csrf

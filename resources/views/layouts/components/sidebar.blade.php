@@ -37,7 +37,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
               <li class="nav-item">
-                <a href="{{url('/guru')}}" class="nav-link">
+                <a href="{{url('/guru/create')}}" class="nav-link">
                 <i class="fas fa-user-plus"></i>
                   <p>Tambah Guru</p>
                 </a>
