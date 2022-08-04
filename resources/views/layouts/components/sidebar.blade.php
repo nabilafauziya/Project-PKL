@@ -43,9 +43,15 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="{{url('/siswa/create')}}" class="nav-link">
                 <i class="fas fa-user-plus"></i>
                   <p>Tambah Siswa</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{url('/kelas/create')}}" class="nav-link">
+                <i class="fas fa-user-plus"></i>
+                  <p>Tambah Kelas</p>
                 </a>
               </li>
             </ul>

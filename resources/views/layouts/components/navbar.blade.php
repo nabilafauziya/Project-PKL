@@ -10,10 +10,13 @@
         <a href="{{url('/home')}}" class="nav-link">Beranda</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="{{url('/guru')}}" class="nav-link">Guru</a>
+        <a href="{{url('/guru')}}" class="nav-link">Data Guru</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="{{url('/siswa')}}" class="nav-link">Siswa</a>
+        <a href="{{url('/siswa')}}" class="nav-link">Data Siswa</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="{{url('/kelas')}}" class="nav-link">Data Kelas</a>
       </li>
     </ul>
 

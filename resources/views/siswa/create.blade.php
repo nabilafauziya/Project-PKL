@@ -7,18 +7,18 @@
                 @include('layouts/_flash')
                 <div class="card">
                     <div class="card-header">
-                        Data Guru
+                        Data Siswa
                     </div>
                     <br>
-                    <center><img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" width="150px" height="150px" alt="logo"></center>
+                    <center><img src="https://cdn-icons.flaticon.com/png/512/2995/premium/2995620.png?token=exp=1659579042~hmac=1c48664a526e3d805ccaf581cc83ad8a" width="150px" height="150px" alt="logo"></center>
                     <div class="card-body">
-                        <form action="{{ route('guru.store') }}" method="post">
+                        <form action="{{ route('siswa.store') }}" method="post">
                             @csrf
                             <div class="mb-3">
-                                <label class="form-label">NIP</label>
-                                <input type="text" class="form-control  @error('nip') is-invalid @enderror"
-                                    name="nip">
-                                @error('nip')
+                                <label class="form-label">NIS</label>
+                                <input type="text" class="form-control  @error('nis') is-invalid @enderror"
+                                    name="nis">
+                                @error('nis')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -29,16 +29,6 @@
                                 <input type="text" class="form-control  @error('nama') is-invalid @enderror"
                                     name="nama">
                                 @error('nama')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Mata Pelajaran</label>
-                                <input type="text" class="form-control  @error('mata_pelajaran') is-invalid @enderror"
-                                    name="mata_pelajaran">
-                                @error('mata_pelajaran')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
